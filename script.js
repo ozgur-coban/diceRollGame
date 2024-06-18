@@ -60,7 +60,7 @@ btnRoll.addEventListener('click', function () {
 
     // display that random number
     diceEl.classList.remove('hidden');
-    diceEl.src = `dice-${diceNumber}.png`;
+    diceEl.src = `diceImages/dice-${diceNumber}.png`;
 
     // check if the number is === 1
     if (diceNumber !== 1) {
